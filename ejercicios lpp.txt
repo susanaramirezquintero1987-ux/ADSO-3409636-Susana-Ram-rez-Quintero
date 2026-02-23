@@ -1,0 +1,79 @@
+Real base, altura, area
+1.
+Inicio
+  Escriba "Ingrese la base del triángulo: "
+  Lea base
+
+  Escriba "Ingrese la altura del triángulo: "
+  Lea altura
+
+  area <- (base * altura) / 2
+
+  Escriba "El área del triángulo es: ", area
+Fin
+2.
+Real base, altura, area, perimetro
+
+Inicio
+  Escriba "Ingrese la base del rectángulo: "
+  Lea base
+
+  Escriba "Ingrese la altura del rectángulo: "
+  Lea altura
+
+  area <- base * altura
+  perimetro <- 2 * (base + altura)
+
+  Escriba "Área: ", area
+  Escriba "Perímetro: ", perimetro
+Fin
+3.
+Real radio, area
+
+Inicio
+  Escriba "Ingrese el radio del círculo: "
+  Lea radio
+
+  area <- 3.1416 * radio * radio
+
+  Escriba "El área del círculo es: ", area
+Fin
+4.
+Entero a, b, temp
+
+Inicio
+  Escriba "Ingrese valor de a: "
+  Lea a
+
+  Escriba "Ingrese valor de b: "
+  Lea b
+
+  temp <- a
+  a <- b
+  b <- temp
+
+  Escriba "Nuevo valor de a: ", a
+  Escriba "Nuevo valor de b: ", b
+Fin
+5.
+Real n1, n2, n3, promedio
+Caracter nombre
+
+Inicio
+  Escriba "Ingrese nombre del estudiante: "
+  Lea nombre
+
+  Escriba "Nota 1: "
+  Lea n1
+
+  Escriba "Nota 2: "
+  Lea n2
+
+  Escriba "Nota 3: "
+  Lea n3
+
+  promedio <- (n1 + n2 + n3) / 3
+
+  Escriba "Estudiante: ", nombre
+  Escriba "Promedio final: ", promedio
+Fin
