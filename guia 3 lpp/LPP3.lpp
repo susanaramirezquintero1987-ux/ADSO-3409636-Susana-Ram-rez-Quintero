@@ -1,0 +1,14 @@
+real numero
+inicio
+Escriba "ingrese el número"
+lea numero
+si numero < 0 entonces
+escriba "el número es negativo"
+fin si
+si numero > 0 entonces
+escriba "el número es positivo"
+fin si
+si numero = 0 entonces
+escriba "el  número es 0"
+fin si
+fin

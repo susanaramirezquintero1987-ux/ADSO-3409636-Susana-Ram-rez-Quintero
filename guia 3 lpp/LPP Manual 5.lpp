@@ -1,0 +1,30 @@
+Real precio,st,des,tp,isv
+Cadena[25] nombre
+Caracter tipoM
+Entero cant
+Inicio
+Escriba "Nombre del cliente"
+Lea nombre
+Escriba "Ingresar el Tipo de cliente"
+Lea tipoM
+Escriba "Ingresar el precio del producto"
+Lea precio
+Escriba "Ingresar la cantidad "
+Lea cant
+St <- precio*cant
+Si (tipoM ='a') o (tipoM='A' ) o (cant>100) entonces
+Des <- st * 0.10
+Sino
+Des <- st * 0.05
+Fin si
+Isv <- (st-des)*0.12
+Tp <- (st-des)+isv
+
+Escriba "Subtotal ", st
+Llamar nueva_linea
+Escriba "Descuento ", des
+Llamar nueva_linea
+Escriba "Impuesto ", isv
+Llamar nueva_linea
+Escriba "Total a pagar" ,tp
+fin

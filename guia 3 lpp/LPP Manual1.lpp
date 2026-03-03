@@ -1,0 +1,8 @@
+Entero num
+Inicio
+Escriba "Ingresar un numero"
+Lea num
+Si num > 100 entonces
+Escriba "El numero es mayor a 100"
+Fin Si
+Fin

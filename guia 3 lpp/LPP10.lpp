@@ -1,0 +1,21 @@
+entero numero
+
+inicio
+   escriba "Ingrese numero de serie: "
+   lea numero
+
+   si (numero >= 1468) Y (numero <= 1568) entonces
+      escriba "Producto defectuoso"
+   sino
+      si (numero >= 7000) Y (numero <= 7999) entonces
+         escriba "Producto defectuoso"
+      sino
+         si (numero >= 8883) Y (numero <= 9001) entonces
+            escriba "Producto defectuoso"
+         sino
+            escriba "Producto en buen estado"
+         fin si
+      fin si
+   fin si
+
+fin

@@ -1,0 +1,21 @@
+
+
+    Real numero1, numero2
+inicio
+    Escriba "Ingrese el número 1: "
+    Lea numero1
+    
+    Escriba "Ingrese el número 2: "
+    Lea numero2
+
+    Si numero1 < numero2 Entonces
+        Escriba "El número ", numero2, " es mayor"
+    Sino
+        Si numero1 > numero2 Entonces
+            Escriba "El número ", numero1, " es mayor"
+        Sino
+            Escriba "Los números son iguales"
+        Fin Si
+    Fin Si
+
+Fin

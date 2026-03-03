@@ -1,0 +1,31 @@
+entero edad, estrato, sexo
+
+inicio
+   escriba "Ingrese sexo (1 = Mujer, 2 = Hombre): "
+   lea sexo
+
+   escriba "Ingrese edad: "
+   lea edad
+
+   escriba "Ingrese estrato (1-6): "
+   lea estrato
+
+   si sexo = 1 entonces
+      si edad >= 18 entonces
+         si edad <= 25 entonces
+            si (estrato = 1) O (estrato = 2) entonces
+               escriba "Apta para recibir el apoyo economico"
+            sino
+               escriba "No apta para recibir el apoyo economico"
+            fin si
+         sino
+            escriba "No apta para recibir el apoyo economico"
+         fin si
+      sino
+         escriba "No apta para recibir el apoyo economico"
+      fin si
+   sino
+      escriba "No apta para recibir el apoyo economico"
+   fin si
+
+fin

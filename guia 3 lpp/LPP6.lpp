@@ -1,0 +1,22 @@
+real n1, n2, n3
+
+inicio
+   escriba "Ingrese primer número: "
+   lea n1
+
+   escriba "Ingrese segundo número: "
+   lea n2
+
+   escriba "Ingrese tercer número: "
+   lea n3
+
+   si (n1 > n2) Y (n1 > n3) entonces
+      escriba "Mayor: ", n1
+   sino
+      si n2 > n3 entonces
+         escriba "Mayor: ", n2
+      sino
+         escriba "Mayor: ", n3
+      fin si
+   fin si
+fin

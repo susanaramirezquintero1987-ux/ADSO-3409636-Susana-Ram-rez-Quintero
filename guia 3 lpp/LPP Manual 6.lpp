@@ -1,0 +1,10 @@
+entero num
+inicio
+escriba "Numero a evaluar"
+lea num
+si (num >=50 ) y (num<=100) entonces
+Escriba " el numero esta entre 50 y 100"
+sino
+Escriba " Fuera del rango 50 y 100"
+fin si
+fin

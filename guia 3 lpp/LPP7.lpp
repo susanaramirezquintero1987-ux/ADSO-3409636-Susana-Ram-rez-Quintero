@@ -1,0 +1,44 @@
+real n1, n2, resultado1,resultado2, resultado3, resultado4
+entero opcion
+inicio
+    escriba "PROGRAMA DE OPERACIONES MATEMATICAS BASICAS"
+    escriba "UTILIZANDO LAS INSTRUCCIONES CONDICIONALES"
+    escriba "SI/SINO"
+    Escriba "."
+    Escriba "(+) SUMA"
+    Escriba "(-) Diferencia"
+    Escriba "(*) PRODUCTO"
+    Escriba "(/) DIVISION"
+    escriba "."
+    escriba "seleccione una opcion del 1 al 4"
+lea opcion
+    escriba "Ingrese el primer número: "
+lea n1
+    escriba "ingrese el segundo número: "
+lea n2
+    si opcion = 1 entonces  
+      resultado1 <- n1 + n2
+      escriba "El resultado de la suma es: ", resultado1
+    sino
+    si opcion = 2 entonces
+      resultado2 <- n1 - n2
+      escriba "el resultado de la diferencia es: ", resultado2
+    sino 
+    si opcion = 3 entonces
+      resultado3 <- n1 * n2
+      escriba "el resultado del producto es: ", resultado3
+    sino 
+    si opcion = 4 entonces
+    si n2 <> 0 entonces
+      resultado4 <- n1 / n2
+      escriba "el resultado de la división es: ", resultado4
+    sino 
+      escriba "error no se puede dividir por cero"
+    fin si
+      sino escriba "opcion no valida"
+      fin si
+    fin si
+  fin si
+fin si
+
+fin

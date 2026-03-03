@@ -1,0 +1,27 @@
+
+
+    Real nota1, nota2, nota3, notaf
+    Caracter nombre
+    inicio
+
+    Escriba "Ingrese el nombre del alumno: "
+    Lea nombre
+    
+    Escriba "Ingrese la nota 1: "
+    Lea nota1
+    
+    Escriba "Ingrese la nota 2: "
+    Lea nota2
+    
+    Escriba "Ingrese la nota 3: "
+    Lea nota3
+
+    notaf <- (nota1 + nota2 + nota3) / 3
+
+    Si notaf >= 3.5 Entonces
+        Escriba "El promedio es: ", notaf, " - El alumno ", nombre, " aprobo"
+    Sino
+        Escriba "El promedio es: ", notaf, " - El alumno ", nombre, " reprobo"
+    Fin Si
+
+Fin
