@@ -1,0 +1,42 @@
+entero opcion
+real n1, n2, resultado
+
+inicio
+    escriba "PROGRAMA DE OPERACIONES MATEMATICAS BASICAS"
+    escriba "UTILIZANDO LA ESTRUCTURA CASO"
+    escriba "."
+    escriba "1. (+) SUMA"
+    escriba "2. (-) DIFERENCIA"
+    escriba "3. (*) PRODUCTO"
+    escriba "4. (/) DIVISION"
+    escriba "."
+    escriba "Seleccione una opcion del 1 al 4"
+    lea opcion
+    escriba "ingrese el primer numero"
+    lea n1
+    escriba "ingrese el segundo numero"
+    lea n2
+      caso opcion sea 
+           1:
+           resultado <- n1 + n2
+           escriba "el resultado de la suma es: ", resultado
+           
+           2: 
+           resultado <- n1 - n2
+           escriba "el resultado de la diferencia es: ", resultado
+           
+           3: 
+           resultado <- n1 * n2
+           escriba "el resultado del producto es: ", resultado
+           
+           4: 
+           si n2 <> 0 entonces
+           resultado <- n1 / n2
+           escriba "el resultado de la division es: ", resultado
+           sino 
+           escriba "error: no se puede dividir por cero"
+          fin si
+          fin caso
+          
+         fin 
+   
