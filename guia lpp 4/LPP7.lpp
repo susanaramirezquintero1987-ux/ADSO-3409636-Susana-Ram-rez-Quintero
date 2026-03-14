@@ -1,0 +1,13 @@
+entero n, i, resultado
+
+inicio
+
+escriba "Ingrese el número para ver su tabla de multiplicar: "
+lea n
+
+para i <- 1 hasta 10 haga
+   resultado <- n * i
+   escriba n, " x ", i, " = ", resultado
+fin para
+
+fin

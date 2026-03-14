@@ -1,0 +1,16 @@
+entero n, i, factorial
+
+inicio
+
+escriba "Ingrese un número: "
+lea n
+
+factorial <- 1
+
+para i <- 1 hasta n haga
+   factorial <- factorial * i
+fin para
+
+escriba "El factorial del número es: ", factorial
+
+fin

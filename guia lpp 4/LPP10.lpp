@@ -1,0 +1,46 @@
+entero codigo, aprobados, no_aprobados, n, i
+real nota1, nota2, nota3, promedio, suma_promedios
+caracter nombre
+
+inicio
+
+aprobados <- 0
+no_aprobados <- 0
+suma_promedios <- 0
+
+escriba "Ingrese la cantidad de estudiantes: "
+lea n
+
+para i <- 1 hasta n haga
+   escriba "Ingrese codigo del estudiante: "
+   lea codigo
+
+   escriba "Ingrese nombre del estudiante: "
+   lea nombre
+
+   escriba "Ingrese nota 1: "
+   lea nota1
+
+   escriba "Ingrese nota 2: "
+   lea nota2
+
+   escriba "Ingrese nota 3: "
+   lea nota3
+
+   promedio <- (nota1 + nota2 + nota3) / 3
+
+   suma_promedios <- suma_promedios + promedio
+
+   si promedio >= 3 entonces
+      aprobados <- aprobados + 1
+   sino
+      no_aprobados <- no_aprobados + 1
+   fin si
+
+fin para
+
+escriba "Estudiantes que aprobaron: ", aprobados
+escriba "Estudiantes que no aprobaron: ", no_aprobados
+escriba "Promedio del grupo: ", suma_promedios / n
+
+fin

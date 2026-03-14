@@ -1,0 +1,29 @@
+real sueldo, descuento, neto
+caracter respuesta
+
+inicio
+
+respuesta <- 's'
+
+mientras respuesta = 's' haga
+
+   escriba "Ingrese el sueldo del trabajador: "
+   lea sueldo
+
+   si sueldo <= 1000000 entonces
+      descuento <- sueldo * 0.03
+   sino
+      descuento <- sueldo * 0.05
+   fin si
+
+   neto <- sueldo - descuento
+
+   escriba "El descuento es: ", descuento
+   escriba "El neto a pagar es: ", neto
+
+   escriba "Desea ingresar otro trabajador (s/n): "
+   lea respuesta
+
+fin mientras
+
+fin

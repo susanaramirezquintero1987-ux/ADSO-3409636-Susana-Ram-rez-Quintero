@@ -1,0 +1,18 @@
+entero numero, suma
+
+inicio
+   suma <- 0
+
+   escriba("Ingrese un número positivo (negativo para terminar): ")
+   lea numero
+
+   mientras numero >= 0 haga
+      suma <- suma + numero
+
+      escriba("Ingrese otro número positivo (negativo para terminar): ")
+      lea numero
+   fin mientras
+
+   escriba "La suma total es: ", suma
+
+fin

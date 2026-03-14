@@ -1,0 +1,17 @@
+entero numero, sumatoria
+
+inicio
+  numero <- 1
+  sumatoria <- 0
+mientras (numero <= 10) haga
+  escriba numero 
+ 
+    llamar nueva_linea
+
+
+    sumatoria <- sumatoria + numero
+    numero <- numero + 1
+    
+  fin mientras 
+  escriba "sumatoria = ", sumatoria
+fin

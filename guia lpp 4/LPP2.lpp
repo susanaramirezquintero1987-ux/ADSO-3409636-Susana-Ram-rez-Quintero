@@ -1,0 +1,10 @@
+entero n, i
+
+inicio
+   escriba("Ingrese el valor de n: ")
+   lea n
+
+   para i <- 1 hasta n haga
+      escriba(i)
+   fin para
+fin

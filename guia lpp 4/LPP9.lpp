@@ -1,0 +1,22 @@
+entero n, i
+entero a, b, c
+
+inicio
+
+escriba "Ingrese la cantidad de términos de Fibonacci: "
+lea n
+
+a <- 0
+b <- 1
+
+escriba a
+escriba b
+
+para i <- 3 hasta n haga
+   c <- a + b
+   escriba c
+   a <- b
+   b <- c
+fin para
+
+fin

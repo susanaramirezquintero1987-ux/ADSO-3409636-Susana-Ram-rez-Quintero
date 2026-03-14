@@ -1,0 +1,25 @@
+entero adivina, numero
+
+inicio
+  adivina <- 70
+  
+  escriba "cual es el numero?"
+  lea numero
+  
+  mientras (adivina <> numero) haga
+  
+  si (numero < adivina) entonces
+    escriba "el numero que usted escribio es menor que el numero correcto"
+    
+    sino
+    
+    escriba "el numero que usted escribio es mayor que el numero correcto"
+    
+    fin si
+    llamar nueva_linea
+    escriba "cual es el numero?"
+    lea numero 
+    fin mientras
+    escriba "felicitaciones adivino el numero"
+   
+    fin

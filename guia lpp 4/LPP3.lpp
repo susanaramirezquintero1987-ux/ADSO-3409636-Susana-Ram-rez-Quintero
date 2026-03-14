@@ -1,0 +1,13 @@
+entero n, i, suma
+
+inicio
+suma <- 0
+   escriba("Ingrese el valor de n: ")
+   lea n
+
+   para i <- 1 hasta n haga
+      escriba(i)
+      suma <- suma + i
+   fin para
+   escriba "sumatoria= ", suma
+fin
